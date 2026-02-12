@@ -1,0 +1,47 @@
+site_name: Plataforma IA + RPA Docs
+site_description: Documentação oficial da plataforma de agentes IA e automação
+site_author: Andre Souza
+
+theme:
+  name: material
+  language: pt
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+  - pymdownx.details
+  - pymdownx.highlight
+
+nav:
+  - Home: index.md
+  - Arquitetura:
+      - Visão Geral: architecture/overview.md
+      - C4 - Contexto: architecture/c4-context.md
+      - C4 - Containers: architecture/c4-containers.md
+      - C4 - Componentes: architecture/c4-components.md
+      - ADR (Decisões): architecture/decisions.md
+  - Operações:
+      - Monitoramento: operations/monitoring.md
+      - Logging: operations/logging.md
+      - Backups: operations/backups.md
+  - Segurança:
+      - Gestão de Segredos: security/secrets-management.md
+      - Controle de Acesso: security/access-control.md
+  - Runbooks:
+      - Deploy: runbooks/deploy.md
+      - Reiniciar Workers: runbooks/restart-workers.md
+
