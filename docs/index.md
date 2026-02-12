@@ -1,9 +1,9 @@
-# 📚 Documentação Oficial - Plataforma IA + RPA
+# 📚 Plataforma IA + RPA
 
 Bem-vindo à documentação oficial da plataforma.
 
 ## Objetivo
-Este portal documenta a arquitetura, operação e segurança do sistema de automação baseado em:
+Este portal documenta arquitetura, operação e segurança do sistema baseado em:
 
 - Agentes IA (LLM / decisão)
 - Orquestração de tarefas
@@ -23,4 +23,3 @@ Este portal documenta a arquitetura, operação e segurança do sistema de autom
 - Separação entre decisão (IA) e execução (workers)
 - Escalabilidade horizontal
 - Resiliência operacional
-

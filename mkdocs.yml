@@ -34,14 +34,25 @@ nav:
       - C4 - Containers: architecture/c4-containers.md
       - C4 - Componentes: architecture/c4-components.md
       - ADR (Decisões): architecture/decisions.md
+  - Agentes:
+      - Visão Geral: agents/overview.md
+      - Orquestração: agents/orchestration.md
+      - Workers RPA: agents/rpa-workers.md
+      - Agentes IA: agents/ai-agents.md
+  - Dados:
+      - Banco de Dados: data/database-schema.md
+      - Modelo de Eventos: data/event-model.md
+      - Retenção: data/retention-policy.md
   - Operações:
       - Monitoramento: operations/monitoring.md
       - Logging: operations/logging.md
       - Backups: operations/backups.md
+      - Incident Response: operations/incident-response.md
   - Segurança:
       - Gestão de Segredos: security/secrets-management.md
       - Controle de Acesso: security/access-control.md
+      - Threat Model: security/threat-model.md
   - Runbooks:
       - Deploy: runbooks/deploy.md
       - Reiniciar Workers: runbooks/restart-workers.md
-
+      - Fila Travada: runbooks/queue-stuck.md
